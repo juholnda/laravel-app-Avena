@@ -14,3 +14,7 @@ Route::get('/password', [PaginasController::class, 'password']);
 Route::get('/register', [PaginasController::class, 'register']);
 
 Route::get('/schedule', [PaginasController::class, 'schedule']);
+
+Route::get('/jointeam', [PaginasController::class, 'jointeam']);
+
+

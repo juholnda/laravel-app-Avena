@@ -258,3 +258,164 @@ body{
     box-shadow: none;
 }
 
+/* TELABASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #7fa5b2, #a1d1c1);
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: #eef0f3;
+    padding: 0 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #d4d6d8;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #1c2a44;
+    font-family: Verdana, sans-serif !important;
+    text-transform: none !important;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1c2a44;
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.menu a.active {
+    border-bottom: 2px solid #1c2a44;
+}
+
+.divider {
+    width: 2px;
+    height: 25px;
+    background: #c2c5c9;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #1c2a44;
+    font-size: 16px;
+}
+
+.perfil img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*jointeam*/
+
+.retangulo {
+    position: relative;
+    z-index: 2;
+    top: 120px;       /* posição do retângulo na página */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    height: 600px;
+    border: 2px solid #1b3558;
+    background-color: rgba(255, 255, 255, 0.57); /* transparente */
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+
+    padding-top: 30px;          /* distância do topo do retângulo */
+    text-align: center;          /* centraliza horizontal */
+    display: flex;
+    flex-direction: column;      
+    align-items: center;         /* centraliza horizontal */
+}
+
+.retangulo h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 50px;
+    color: #2f415a;
+    margin: 0;
+}
+
+.retangulo p {
+    font-size: 20px;
+    color: #102542;
+    text-align: center;
+    margin-top: 70px; /* distância do h1 */
+}
+.input-box input {
+    width: 500px;
+    height: 70px;
+    border: 2px solid #1b3558;
+    border-radius: 13px;
+    padding: 10px 15px;
+    font-size: 18px;
+    outline: none;
+}
+
+.input-box {
+    margin-top: 50px; /* distância do p */
+}
+
+.btn-ingressar {
+    background-color: #2d3e56;
+    color: #fff;
+    border: none;
+    border-radius: 51px;
+    width: 25%;
+    padding: 12px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50px; /* distancia da caixa de texto */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* centraliza dentro do retangulo */
+}
+
+.btn-ingressar:hover {
+    opacity: 0.9;
+}
+
+/*logo*/
+
+.logo-avena {
+    position: absolute;
+    top: 53%;          
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 790px;     /* ajusta o tamanho */
+    opacity: 0.20;    /* transparência */
+    z-index: 1;       /* atrás */
+}
+
+

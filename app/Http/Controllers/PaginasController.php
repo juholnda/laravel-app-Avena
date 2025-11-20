@@ -25,4 +25,8 @@ class PaginasController extends Controller
     public function schedule() {
         return view('schedule');
     }
+
+    public function jointeam() {
+        return view('jointeam');
+    }
 }
