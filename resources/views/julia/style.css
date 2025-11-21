@@ -1257,3 +1257,69 @@ body {
 
 /*PÁGINA BASE NDE CONFIGURAÇÕES */
 
+body.layout-config {
+    background: linear-gradient(
+        to right,
+        #9ac0cd 0%,
+        #9ac0cd 30%,
+        #b8d3d8 30%,
+        #b8d3d8 100%
+    );
+    height: 100vh;
+    margin: 0;
+}
+
+.config-header {
+    padding: 30px 40px;
+}
+
+.config-header h1 {
+    font-family: Verdana, sans-serif;
+    color: #102542;
+    font-size: 32px;
+    margin: 0;
+}
+
+.config-header hr {
+    width: 100vw;
+    margin-left: calc(50% - 50vw); /* força encostar na esquerda da tela */
+    margin-top: 30px;      /* distância do topo → aumente se quiser mais */
+    border: none;
+    border-top: 3px solid #2f415a;
+}
+
+
+body.base-config main {
+    padding: 0;
+}
+
+.pesquisa-config {
+    display: block;
+    width: 500px;
+    height: 30px;
+    padding: 30px 50px;
+
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+
+    border: 1px solid #2f415a;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-radius: 8px;
+    outline: none;
+
+    margin-top: 20px;      /* distância abaixo da linha */
+    margin-left: 30px;     /* ← AFASTA DA ESQUERDA */
+}
+
+.config-topicos {
+    margin-left: 30px;              /* mesmo alinhamento da caixa */
+    margin-top: 25px;               /* espaço abaixo da pesquisa */
+    font-family: Verdana, sans-serif;
+    color: #102542;
+}
+
+.config-topicos p {
+    font-size: 18px;
+    margin-bottom: 12px;            /* espaço entre os itens */
+    cursor: pointer;                /* dá sensação de item clicável */
+}

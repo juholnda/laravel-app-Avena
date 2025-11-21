@@ -58,4 +58,8 @@ class PaginasController extends Controller
         return view('salaatividades');
     }
 
+    public function contas() {
+        return view('contas');
+    }
+
 }

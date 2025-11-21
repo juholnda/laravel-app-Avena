@@ -10,7 +10,9 @@
     @stack('styles')
 </head>
 
-<body>
+<body class="layout-config">
+
+
 
     {{-- NAVBAR --}}
     <header class="navbar">
@@ -40,6 +42,19 @@
 
     {{-- CONTEÚDO DAS PÁGINAS --}}
     <main>
+
+        <div class="config-header">
+            <h1>Configurações</h1>
+            <hr>
+        </div>
+
+        <!-- Caixinha de pesquisa aqui -->
+        <input type="text" class="pesquisa-config" placeholder="Localizar em configurações">
+
+        <p>Contas</p>
+        <p>Privacidade e Segurança</p>
+        <p>Acessibilidade</p>
+
         @yield('content')
     </main>
 

@@ -30,3 +30,5 @@ Route::get('/equipecriada', [PaginasController::class, 'equipecriada']);
 Route::get('/equipesneuro', [PaginasController::class, 'equipesneuro']);
 
 Route::get('/salaatividades', [PaginasController::class, 'salaatividades']);
+
+Route::get('/contas', [PaginasController::class, 'contas']);
