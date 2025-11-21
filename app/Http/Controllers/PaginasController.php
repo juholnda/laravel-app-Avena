@@ -29,4 +29,33 @@ class PaginasController extends Controller
     public function jointeam() {
         return view('jointeam');
     }
+
+    public function equipes() {
+        return view('equipes');
+    }
+
+    public function planopaciente() {
+        return view('planopaciente');
+    }
+
+    public function criarequipe() {
+        return view('criarequipe');
+    }
+
+    public function tituloequipe() {
+        return view('tituloequipe');
+    }
+
+    public function equipecriada() {
+        return view('equipecriada');
+    }
+
+    public function equipesneuro() {
+        return view('equipesneuro');
+    }
+
+    public function salaatividades() {
+        return view('salaatividades');
+    }
+
 }

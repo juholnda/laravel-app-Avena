@@ -17,4 +17,16 @@ Route::get('/schedule', [PaginasController::class, 'schedule']);
 
 Route::get('/jointeam', [PaginasController::class, 'jointeam']);
 
+Route::get('/equipes', [PaginasController::class, 'equipes']);
 
+Route::get('/planopaciente', [PaginasController::class, 'planopaciente']);
+
+Route::get('/criarequipe', [PaginasController::class, 'criarequipe']);
+
+Route::get('/tituloequipe', [PaginasController::class, 'tituloequipe']);
+
+Route::get('/equipecriada', [PaginasController::class, 'equipecriada']);
+
+Route::get('/equipesneuro', [PaginasController::class, 'equipesneuro']);
+
+Route::get('/salaatividades', [PaginasController::class, 'salaatividades']);
